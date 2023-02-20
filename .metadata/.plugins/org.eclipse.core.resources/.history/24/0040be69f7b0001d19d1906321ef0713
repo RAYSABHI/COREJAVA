@@ -1,0 +1,13 @@
+package in.co.InterfaceOOP;
+
+public class Person1 {
+	
+	protected String firstname =  null;
+	protected String lastname =  null;
+	protected String address =null;
+	
+	public Person1 () {
+		System.out.println("this is default of person1 class");
+	}
+
+}

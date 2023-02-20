@@ -11,9 +11,6 @@ public static void main(String[] args) {
 	int value = obj.sum1(n,m);
 	System.out.println(value);
 	}
-
-	
-	
 	public int sum1(int a,int b) {
 		return a+b;
 		

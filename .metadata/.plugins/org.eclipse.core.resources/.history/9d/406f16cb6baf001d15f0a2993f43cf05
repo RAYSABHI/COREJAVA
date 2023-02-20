@@ -1,0 +1,10 @@
+package in.co.Abstract;
+
+public abstract class ShapeAbstract {
+	
+	private int a;
+	private int b;
+	
+	public abstract double area();
+
+}

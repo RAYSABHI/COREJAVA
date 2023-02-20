@@ -1,0 +1,9 @@
+package in.co.inheritance;
+
+public class Circle {
+	
+	private int radius;
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package in.co.constructor;
+
+public class TestRectangleCons {
+	public static void main(String[] args) {
+		
+	
+	
+	RectangleCons r = new RectangleCons(10,15);
+	
+	
+	
+	}
+}

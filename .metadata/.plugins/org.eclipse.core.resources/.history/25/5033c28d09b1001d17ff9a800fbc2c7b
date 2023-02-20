@@ -1,0 +1,12 @@
+package in.co.String;
+
+public class StringClass {
+	public static void main(String[] args) {
+		
+		String s = "Vijay Dinanath Chauhan";
+		
+		System.out.println(s);
+		System.out.println("String length " + s.length());
+	}
+
+}

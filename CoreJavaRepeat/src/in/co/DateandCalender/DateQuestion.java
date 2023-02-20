@@ -15,11 +15,15 @@ public class DateQuestion {
 		String DOB = "24/08/2000";
 		Date d1 = new Date();
 		Date a = sdf.parse(DOB);
-		System.out.println(d1);
+		System.out.println(a);
 		
-//	  String age = str+DOB;
-//	  System.out.println(age);
-//		
+		String age = str+DOB;
+	  System.out.println(age);
+	  
+	  // for age 
+	  int age1 = d.getYear()-a.getYear();
+	  System.out.println(age1);
+		
 		
 		
 		

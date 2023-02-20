@@ -1,0 +1,12 @@
+package in.co.If_Else;
+
+public class Ladder_IfElse2 {
+	public static void main(String[] args) {
+		
+		String city = "Delhi";
+		
+		if ()
+		
+	}
+
+}

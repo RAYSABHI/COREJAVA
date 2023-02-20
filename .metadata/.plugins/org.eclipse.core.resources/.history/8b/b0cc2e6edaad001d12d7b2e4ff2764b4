@@ -1,0 +1,11 @@
+package in.co.constructor;
+
+public class CircleCons {
+	
+	private int radius;
+	
+	public CircleCons() {
+		System.out.println("this is default constructor of CircleCons");
+	}
+
+}

@@ -1,0 +1,13 @@
+package in.co.constructor;
+
+public class TestShapeConst {
+	
+	ShapeConst s = new ShapeConst ("blue", 15);
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	
+
+}

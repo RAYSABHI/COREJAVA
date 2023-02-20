@@ -5,7 +5,9 @@ public class CircleCons {
 	private int radius;
 	public static final double PI = 3.14;
 	
-	public CircleCons() {
+	public CircleCons(
+			
+			) {
 		System.out.println("this is default constructor of CircleCons");
 	}
 	

@@ -1,0 +1,15 @@
+package in.co.Abstract;
+
+public class TestShapeAbstract {
+	public static void main(String[] args) {
+		
+		ChildShapeAbstract c = new ChildShapeAbstract();
+		
+		c.setA(10);
+		c.setB(10);
+		c.area();
+		
+		
+	}
+
+}

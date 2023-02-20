@@ -1,0 +1,14 @@
+package in.co.String;
+
+public class StringBuffer1 {
+	public static void main(String[] args) {
+		
+		// string buffer
+		StringBuffer sb = new StringBuffer("This is java");
+		
+		
+		System.out.println(sb.append("Java is OOP"));
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package in.co.inheritance;
+
+public class TestThroughObject {
+	public static void main(String[] args) {
+		
+		Shape s = new Shape();
+		Rectangle r = (Rectangle) s;
+		Circle c = (Circle) s;
+		
+		// rectanle class
+		r.setLength(12);
+		r.setWidth(12);
+		r.setColor("yellow");
+		System.out.println(r.getColor());
+		
+		// circle class
+		c.getRadius();
+		c.area();
+		c.setColor("red");
+		System.out.println(c.getColor());
+		System.out.println(c.getRadius());
+		}
+
+		}

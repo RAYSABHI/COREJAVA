@@ -1,0 +1,14 @@
+package in.co.String;
+
+public class StringClass {
+	public static void main(String[] args) {
+		
+		String s = "Vijay Dinanath Chauhan";
+		
+		System.out.println(s);
+		System.out.println("String length: " + s.length());
+		System.out.println("7th character: "+ s.charAt(6));
+		System.out.println("index of Dina: "+ s.indexOf("Chauhan));
+	}
+
+}

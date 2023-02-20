@@ -1,0 +1,25 @@
+package in.co.inheritance;
+
+public class Circle {
+	
+	private int radius;
+	public static final double PI =0;
+	
+	// getter setter
+	
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+	public double area () {
+		double area = (PI) * getRadius() * getRadius();
+		return area;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException"/>
+    <fullyQualifiedTypeName name="java.net.SocketOption"/>
+    <fullyQualifiedTypeName name="in.co.MethodMaking.Calculator"/>
+    <fullyQualifiedTypeName name="sun.java2d.pipe.SpanShapeRenderer.Simple"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.MachineDescriptionAArch64"/>
+    <fullyQualifiedTypeName name="in.co.gettersetter.Rectangle"/>
+    <fullyQualifiedTypeName name="in.co.gettersetter.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="in.co.constructor.CircleCons"/>
+    <fullyQualifiedTypeName name="in.co.gettersetter.Triangle"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="in.co.constructor.Person"/>
+    <fullyQualifiedTypeName name="in.co.inheritance.Shape"/>
+    <fullyQualifiedTypeName name="in.co.inheritance.Rectangle"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="in.co.constructor.RectangleCons"/>
+    <fullyQualifiedTypeName name="in.co.inheritance.Circle"/>
+    <fullyQualifiedTypeName name="in.co.inheritance.Triangle"/>
+    <fullyQualifiedTypeName name="in.co.Abstract.ShapeAbstract"/>
+    <fullyQualifiedTypeName name="in.co.Abstract.ChildShapeAbstract"/>
+    <fullyQualifiedTypeName name="in.co.InterfaceOOP.Richman"/>
+    <fullyQualifiedTypeName name="in.co.InterfaceOOP.SocialWorker"/>
+    <fullyQualifiedTypeName name="in.co.InterfaceOOP.Businessman"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="in.co.InterfaceOOP.Employee1"/>
+</qualifiedTypeNameHistroy>

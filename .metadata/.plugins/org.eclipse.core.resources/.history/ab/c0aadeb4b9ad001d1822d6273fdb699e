@@ -1,0 +1,13 @@
+package in.co.constructor;
+
+public class Shape {
+	
+	private String color = null;
+	private int borderWidth =0;
+	
+	public Shape() {
+		
+	}
+	
+
+}
