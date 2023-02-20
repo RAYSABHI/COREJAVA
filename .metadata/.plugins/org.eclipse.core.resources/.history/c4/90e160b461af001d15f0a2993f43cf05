@@ -1,8 +1,0 @@
-package in.co.constructor;
-
-public class TestRectangleCons {
-	
-	RectangleCons rc = new RectangleCons(10,15);
-	
-
-}

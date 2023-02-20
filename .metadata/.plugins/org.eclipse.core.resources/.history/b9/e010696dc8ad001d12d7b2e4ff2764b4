@@ -1,7 +1,0 @@
-package in.co.gettersetter;
-
-public class Person {
-
-	private String name;
-	private 
-}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;in.co.learning.Learning&apos; to &apos;ifelseLearning&apos;&#x0D;&#x0A;- Original project: &apos;learning&apos;&#x0D;&#x0A;- Original element: &apos;in.co.learning.Learning&apos;&#x0D;&#x0A;- Renamed element: &apos;in.co.learning.ifelseLearning&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Learning&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.co.learning{Learning.java[Learning" matchStrategy="1" name="ifelseLearning" qualified="false" references="true" similarDeclarations="false" stamp="1668440667365" textual="false" version="1.0"/>
-</session>
