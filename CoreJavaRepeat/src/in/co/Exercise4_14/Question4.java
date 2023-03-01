@@ -5,13 +5,14 @@ public class Question4 {
 		
 		// find Factiorial Number
 		
-		int Fact = 10;
-		
-		for (int i=10; i>0; i--) {
+		int number = 5;
+		int fact = 1;
+		for (int i=1; i<=number; i++) {
+			fact = fact*i;
 			
-			//int Fact1 = Fact*i;
-			System.out.print(i + " ");
+			//System.out.println(fact);
 		}
+		System.out.println(fact);
 		
 		
 	}

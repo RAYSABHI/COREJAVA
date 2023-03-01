@@ -8,9 +8,13 @@ public class Question2 {
 		int a = 50;
 		int b = 60;
 		
-		if (a<b && a<=b) {
+		if (a<b && a!=b) {
 			System.out.println("Number A is smaller");
 		}
+		else {
+			System.out.println("number B is greater");
+		}
+			
 	}
 
 }
