@@ -1,0 +1,32 @@
+package in.co.collection;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class SetSortedInterface {
+	public static void main(String[] args) {
+		
+		SortedSet s= new TreeSet();
+		s.add("One");
+		s.add("Two");
+		s.add("Three");
+		s.comparator();
+		for (Object ele : s) {
+			System.out.println(ele);
+			System.out.println();
+		}
+		
+		// get first element one
+		System.out.println("First element : " +s.first());
+		
+		// get last element
+		System.out.println("last element : "+ s.last());
+		
+		s.add("123");
+		s.add("456");
+		System.out.println(s.addAll(s)); // boolean show
+		s.comparator();
+		
+	}
+
+}

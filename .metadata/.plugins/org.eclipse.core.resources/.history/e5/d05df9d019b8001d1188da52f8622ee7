@@ -1,0 +1,14 @@
+package in.co.collection;
+
+public class TestEmployee_HashCode {
+	public static void main(String[] args) {
+		
+		Employee_Hashcode e1 = new Employee_Hashcode("lakhan", "indore");
+		Employee_Hashcode e2 = new Employee_Hashcode("ram","dewas");
+		
+		
+		
+		
+	}
+
+}

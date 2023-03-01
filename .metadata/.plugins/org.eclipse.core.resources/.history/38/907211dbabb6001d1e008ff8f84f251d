@@ -1,0 +1,12 @@
+package in.co.collection;
+
+import java.util.ArrayList;
+
+public class TestCollectionExample {
+public static void main(String[] args) {
+	
+	Collecton c= new ArrayList()
+	
+	
+}
+}

@@ -1,0 +1,36 @@
+package in.co.collection;
+
+import java.util.Comparator;
+
+public class Comparator_Employee implements Comparable<Comparator_Employee> {
+	
+	public String name = null;
+	public String address = null;
+	public String dob = null;
+	
+	public Comparator_Employee (String name, String address,String dob) {
+		this.name = name;
+		this.address = address;
+		this.dob= dob;
+		
+	}
+
+	@Override
+	public String toString() {
+		
+		return name + " "+ address + " "+ dob;
+	}
+
+	public int compareTo(Comparator_Employee o1) {
+		
+		return this.name.compareTo(o1.name);
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

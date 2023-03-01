@@ -1,0 +1,18 @@
+package in.co.MethodOverriding;
+
+public class TestBank {
+	public static void main(String[] args) {
+		
+		Bank b1 = new Bank();
+		AxisBank a =new AxisBank();
+		
+
+		
+		
+	
+		
+		
+		
+	}
+
+}

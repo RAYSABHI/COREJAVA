@@ -1,0 +1,32 @@
+package in.co.Exercise9_7;
+
+import in.co.inheritance.Rectangle;
+
+public class TestQ1 {
+	public static void main(String[] args) {
+		
+		
+		Q1_Rectangle r = new Q1_Rectangle();
+		
+		r.setLength(50);
+		r.setWidth(50);
+		System.out.println("area of rectangle : " +r.area());
+		
+		//..........................................
+		
+		Q1_Circle c = new Q1_Circle();
+		
+		c.setRadius(20);
+		
+		System.out.println("area of circle : " +c.area());
+		
+		//...........................................
+		
+		Q1_Triangle t = new Q1_Triangle();
+		t.setBase(20);
+		t.setHight(30);
+		
+		System.out.println("area of triangle: " +t.area());
+	}
+
+}

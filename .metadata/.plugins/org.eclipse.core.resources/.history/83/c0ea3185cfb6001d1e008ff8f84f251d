@@ -1,0 +1,29 @@
+package in.co.collection;
+
+import java.util.HashMap; 
+
+public class HASHMAPTEST {
+	public static void main(String[] args) {
+		
+		HashMap map = new HashMap();
+		map.put(null, "zero"); //null key
+		map.put("1", "one");
+		map.put("2", "two");
+		map.put("3", "three");
+		System.out.println(map);
+		
+		// get a value
+		String str = (String) map.get("1");
+		System.out.println(str);
+		
+		// remove an element by key
+		map.remove("3");
+		System.out.println(map);
+	
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package in.co.collection;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class SetSortedInterface {
+	public static void main(String[] args) {
+		
+		SortedSet s= new TreeSet();
+		s.add("One");
+		s.add("Two");
+		s.add("Three");
+		
+		for (Object ele : s) {
+			System.out.println(ele);
+		}
+		
+	}
+
+}

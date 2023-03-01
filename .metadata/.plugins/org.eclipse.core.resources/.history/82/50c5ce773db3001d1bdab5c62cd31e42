@@ -1,0 +1,62 @@
+package in.co.ExceptionalHanding;
+
+public class AccountException extends Exception {
+	
+	private String number ;
+	private String accountType;
+	private double balance;
+	
+	// getter setter
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	public String getAccountType() {
+		return accountType;
+	}
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+	public void deposit (double amount) {
+		balance = getBalance() + amount;
+	}
+	
+	public void withdraw (double amount) {
+		double total = getBalance()-amount;
+		if (total>2000) {
+			setBalance(total);
+		} else {
+			try {
+				throw new AccountException();
+			}
+			catch (Exception e) {
+				System.out.println("insufficient balance" + e);
+			}
+		}
+	}
+	public void fundTransfer (double amount ) {
+		double total = getBalance()-amount;
+		if (total>2000) {
+			setBalance(total);
+		}
+		else {
+			try {
+				throw new AccountException();
+			} catch (Exception e) {
+				System.out.println("insuffiecient fund");
+			}
+		}
+	}
+	
+	
+
+}

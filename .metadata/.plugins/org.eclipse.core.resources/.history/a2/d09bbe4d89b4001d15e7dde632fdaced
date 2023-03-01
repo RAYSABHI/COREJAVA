@@ -1,0 +1,29 @@
+package in.co.Programs;
+
+public class ArmStrong {
+	
+	public static void main(String[] args) {
+		// armstrong number is 153 = 1*1*1+5*5*5+3*3*3
+		
+		int n =143;
+		int r;
+		int count = 0;
+		int c = n;
+		
+		while(n>0) {
+			r = n%10;                          //153%10 = 3 first time
+			count = (r*r*r) + count;		// (3*3*3) + 0 = 27
+			n = n/10;                           //153/10 = around 15
+		}
+		
+		if (c == count) {
+			System.out.println("ArmStrong Number");
+		}
+		else {
+			System.out.println("Not ArmStrong number");
+		}
+		
+			
+		}
+	}
+

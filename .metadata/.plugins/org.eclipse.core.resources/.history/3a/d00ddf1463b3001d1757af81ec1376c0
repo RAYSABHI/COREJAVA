@@ -1,0 +1,11 @@
+package in.co.Exercise9_7;
+
+public class Q3_TestPerson {
+	public static void main(String[] args) {
+		
+		Q3_Person p = new Q3_Person("rays", "indore");
+		
+		System.out.println(p.toString());
+	}
+
+}

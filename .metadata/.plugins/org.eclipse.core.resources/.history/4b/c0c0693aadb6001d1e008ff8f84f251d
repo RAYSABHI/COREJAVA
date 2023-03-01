@@ -1,0 +1,22 @@
+package in.co.collection;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class TestCollectionExample {
+public static void main(String[] args) {
+	
+	Collection c= new ArrayList();
+	c.add("Bura mat Dekho");
+	c.add("Bura mat Suno");
+	c.add("Bura mat Kaho");
+	
+	System.out.println(c);
+	System.out.println("length of collection : "+ c.size());
+
+	for (Object ele : c) {
+		System.out.println(ele);
+	}
+	
+}
+}

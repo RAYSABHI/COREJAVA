@@ -1,0 +1,8 @@
+package in.co.Exercise9_7;
+
+public class Q3_Person {
+	
+	protected String firstName;
+	protected String lastName;
+
+}

@@ -1,0 +1,12 @@
+package in.co.collection;
+
+import java.util.TreeSet;
+
+public class TreeSetTest {
+	public static void main(String[] args) {
+		
+		TreeSet s = new TreeSet();
+		
+	}
+
+}

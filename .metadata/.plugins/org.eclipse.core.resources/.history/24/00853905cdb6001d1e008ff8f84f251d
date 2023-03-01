@@ -1,0 +1,27 @@
+package in.co.collection;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetTest {
+	public static void main(String[] args) {
+		
+		HashSet s = new HashSet();
+		s.add("zero")args;
+		s.add("one");
+		s.add("two");
+		s.add("three");
+		System.out.println("normally print : " +s);
+	
+		Iterator it = s.iterator();
+		while (it.hasNext())  {
+			String str = (String) it.next();
+			System.out.println("iterator print : " +str);
+			
+		}
+	
+	
+	
+	}
+
+}

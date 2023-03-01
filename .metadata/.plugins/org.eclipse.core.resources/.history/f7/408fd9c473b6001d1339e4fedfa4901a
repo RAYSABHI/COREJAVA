@@ -1,0 +1,16 @@
+package in.co.collection;
+
+import java.util.ArrayList;
+
+public class CollectonList {
+	public static void main(String[] args) {
+		
+		ArrayList c = new ArrayList();
+		
+		System.out.println(c.add("rays"));
+		System.out.println(c.get(0));
+		c.clear();
+		System.out.println();
+	}
+
+}

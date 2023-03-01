@@ -1,0 +1,9 @@
+package in.co.Clonning;
+
+public class Customer11 {
+	
+	public String name = null;
+	public BankAccount account = null;
+	
+
+}

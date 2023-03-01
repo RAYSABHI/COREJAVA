@@ -1,0 +1,20 @@
+package in.co.collection;
+
+import java.util.HashMap;
+
+import javax.print.attribute.HashAttributeSet;
+
+public class MapInterface {
+	public static void main(String[] args) {
+		
+		HashMap map= new HashMap();
+		
+		map.put(1, "one");
+		map.put(2, "two");
+		map.put(3, "three");
+		
+		int size = map.size();
+		String val = (String)map.get(2)
+	}
+
+}

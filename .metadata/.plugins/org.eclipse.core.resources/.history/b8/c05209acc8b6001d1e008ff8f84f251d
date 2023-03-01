@@ -1,0 +1,22 @@
+package in.co.collection;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+	public static void main(String[] args) {
+		
+		ArrayList l = new ArrayList();
+		l.add("zero");
+		l.add("Two");
+		l.add("Three");
+		l.add("Five");
+		System.out.println("collection List : " +l);
+		
+		l.add(3, "Four");  //insert at 4th index
+		System.out.println("After adding four : "+ l);
+	
+		String val =(String) l.get(1);
+		System.out.println("String index : "+val);
+	}
+
+}

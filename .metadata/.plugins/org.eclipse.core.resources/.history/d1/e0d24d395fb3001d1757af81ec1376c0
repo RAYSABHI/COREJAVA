@@ -1,0 +1,15 @@
+package in.co.Exercise9_7;
+
+import in.co.inheritance.Rectangle;
+
+public class TestQ1 {
+	public static void main(String[] args) {
+		
+		
+		Q1_Rectangle r = new Q1_Rectangle();
+		
+		
+		
+	}
+
+}

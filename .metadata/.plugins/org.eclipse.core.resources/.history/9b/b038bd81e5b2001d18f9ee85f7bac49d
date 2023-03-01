@@ -1,0 +1,11 @@
+package in.co.Exercise4_14;
+
+public class Question18 {
+public static void main(String[] args) {
+	
+	int a[]= {8,7,6,5,4,3,2,1};
+	int b = 7;
+	add(b,a);
+	
+}
+}

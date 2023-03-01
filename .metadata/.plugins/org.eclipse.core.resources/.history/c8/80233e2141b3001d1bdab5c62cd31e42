@@ -1,0 +1,21 @@
+package in.co.Exercise4_14;
+
+public class Question4 {
+	public static void main(String[] args) {
+		
+		int num = 5;
+		int factorial = 1;
+		
+		for (int i =5; i>=1;i--) {
+			System.out.println(i);
+		}
+		for (int i = 1; i<=num; i++) {
+			factorial = factorial * i;
+
+			
+			}
+
+		 System.out.println("factorial of number 5 = " + factorial);
+	}
+
+}

@@ -1,0 +1,8 @@
+package in.co.collection;
+
+public class DequeArrayExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

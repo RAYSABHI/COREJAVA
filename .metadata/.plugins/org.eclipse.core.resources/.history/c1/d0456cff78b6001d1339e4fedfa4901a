@@ -1,0 +1,17 @@
+package in.co.collection;
+
+import java.util.ArrayList;
+
+public class ListInterface {
+	public static void main(String[] args) {
+		
+		ArrayList a = new ArrayList();
+		
+		a.add(0, 55);
+		System.out.println(a.get(0));
+		a.add(1, "uttam ji");
+		System.out.println(a.get(1));
+		System.out.println(a.remove(0));
+	}
+
+}

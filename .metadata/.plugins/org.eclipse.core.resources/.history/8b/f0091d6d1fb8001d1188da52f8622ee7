@@ -1,0 +1,14 @@
+package in.co.collection;
+
+public class TestComparator_Employee {
+	public static void main(String[] args) {
+		
+		Comparator_Employee e1 = new Comparator_Employee("ran", "indore", "02/06/2005");
+		Comparator_Employee e2 = new Comparator_Employee("Shyam", "ujjain", "02/06/2006")
+		
+		
+		
+		
+	}
+
+}

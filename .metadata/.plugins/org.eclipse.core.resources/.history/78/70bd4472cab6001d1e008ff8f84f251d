@@ -1,0 +1,13 @@
+package in.co.collection;
+
+import java.util.Vector;
+
+public class VectorList {
+public static void main(String[] args) {
+	
+	Vector v = new Vector();
+	v.add("one");
+	v.add("two");
+	System.out.println(v);
+}
+}

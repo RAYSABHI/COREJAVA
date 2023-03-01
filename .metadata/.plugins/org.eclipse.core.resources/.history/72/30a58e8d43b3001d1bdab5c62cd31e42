@@ -1,0 +1,12 @@
+package in.co.ExceptionalHanding;
+
+public class TryWithoutCatch {
+	public static void main(String[] args) {
+		
+		try {
+			int a = 50/0;
+			System.out.println("tryblock");
+		}
+	}
+
+}

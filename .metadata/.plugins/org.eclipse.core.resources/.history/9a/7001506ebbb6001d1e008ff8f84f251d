@@ -1,0 +1,20 @@
+package in.co.collection;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class QueueInterface {
+public static void main(String[] args) {
+	
+	Queue name = new PriorityQueue();
+	name.add("123");
+	name.add("abc");
+	System.out.println(name);
+	name.offer("123456"); // for adding element in a queue
+	System.out.println(name);
+
+	name.peek();
+	System.out.println(name);
+	
+}
+}

@@ -1,0 +1,23 @@
+package in.co.MethodOverriding;
+
+public class TestBank {
+	public static void main(String[] args) {
+		
+		//Bank b1 = new Bank();
+		Bank[] b =new Bank[3];
+		
+		
+		
+		b[0] = new SBIBank();
+		b[1] = new AxisBank();
+		b[2] = new HDFCBank();
+		
+		SBIBank s = (SBIBank) b[0];
+		System.out.println(	"Bank name - " +s.getName());
+		System.out.println("interest rate - " + s.interestRate());
+		
+		
+		
+	}
+
+}

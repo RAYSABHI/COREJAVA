@@ -1,0 +1,18 @@
+package in.co.Clonning;
+
+public class Customer11 {
+	
+	public String name = null;
+	public BankAccount account = null;
+	
+	public Customer11 (String n) {
+		name = n;
+		account = new BankAccount(10);
+		
+		public Object clone throws CloneNotSupportedException{
+			
+		}
+	}
+	
+
+}

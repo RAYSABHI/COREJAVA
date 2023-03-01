@@ -1,0 +1,13 @@
+package in.co.String;
+
+public class TestImmutableString {
+	public static void main(String[] args) {
+		
+		ImmutableString s = new ImmutableString(20, 30);
+		
+		System.out.println(s.getLength());
+		System.out.println(s.getWidth());
+		s.area();
+	}
+
+}

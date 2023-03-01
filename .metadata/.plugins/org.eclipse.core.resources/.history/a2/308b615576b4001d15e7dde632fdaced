@@ -1,0 +1,15 @@
+package in.co.MethodOverriding;
+
+public class AxisBank extends Bank{
+
+	@Override
+	public double interestRate() {
+		
+		return super.interestRate();
+	}
+
+	
+	
+	
+
+}
