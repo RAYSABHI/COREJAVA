@@ -1,22 +1,39 @@
 package in.co.collection;
 
-public class Marksheet  implements Comparable<Marksheet>{
+import java.util.Comparator;
 
+public class Marksheet implements Comparable<Marksheet>{
+	
 	public String rollNo;
 	public String name;
 	public int marks;
 	
-	public Marksheet(String r , String n, int m) {
-		this.rollNo = r;
-		this.name = n;
-		this.marks = m;
+	public Marksheet (String rollNo, String name, int marks) {
+		this.rollNo = rollNo;
+		this.name =name;
+		this.marks= marks;
 		}
-	
-	
-	public int compareTo(Marksheet m) {
-		return rollNo.compareTo(m.rollNo);
-	}
+	@Override
 	public String toString() {
-		return rollNo+" "+name+ " "+marks;
+	
+		return rollNo+ " "+name+" "+marks;
 	}
-}
+	@Override
+	public int compareTo(Marksheet o) {
+		
+		return rollNo.compareTo(o.rollNo) ;}
+	}
+
+	class OrderByName implements Comparator<Marksheet> {
+
+		@Override
+		public int compare(Marksheet m1, Marksheet m2) {
+		
+			return m1.name.compareTo(m2.name);
+		}
+		
+		
+		
+		
+		
+	}
